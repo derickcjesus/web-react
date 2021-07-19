@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Formulario from './components/Form.js';
-
+import Hello from './components/componentes-funcionais/Hello';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Formulario />
+    <Hello/>
   </React.StrictMode>,
   document.getElementById('root')
 );
